@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "yV6/0llgsaEIu/ofAelVCOeytWwEBDNnhp5U/VN04W0=",
+  "Source": "OtherApiServer",
+  "BasePath": "_content/OtherApiServer",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "RyKyX0vn6QP9Ff2EI9t13Bg/OmSF7OD6vnZ3aTxanHk=",
+  "Source": "FrontApiServer",
+  "BasePath": "_content/FrontApiServer",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
