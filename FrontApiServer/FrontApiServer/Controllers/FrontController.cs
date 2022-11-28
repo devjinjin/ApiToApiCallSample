@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using FrontApiServer.Data;
+using Microsoft.AspNetCore.Mvc;
 using System.Net.Http.Headers;
 
 namespace FrontApiServer.Controllers
@@ -7,14 +8,12 @@ namespace FrontApiServer.Controllers
     [ApiController]
     public class FrontController : ControllerBase
     {
-
         public FrontController()
         {
-
         }
 
         [HttpGet]
-        public async Task<IEnumerable<WeatherForecast>> GetAsync()
+        public async Task<IEnumerable<WeatherForecast>?> GetAsync()
         { 
             try
             {
@@ -27,11 +26,13 @@ namespace FrontApiServer.Controllers
                     if (response.IsSuccessStatusCode)
                     {
                         var data = await response.Content.ReadFromJsonAsync<IEnumerable<WeatherForecast>>();
-                    
-                        foreach (var x in data)
-                        {
-                            //Call your store method and pass in your own object
-                        }
+
+                        //foreach (var x in data)
+                        //{
+
+                        //    //Call your store method and pass in your own object
+                        //}
+
 
                         return data;
                     }

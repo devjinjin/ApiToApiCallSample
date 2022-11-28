@@ -1,0 +1,14 @@
+﻿설치 라이브러리 파일
+
+Quartz
+Quartz.Extensions.Hosting
+
+https://blog.devart.com/scheduling-cron-jobs-in-asp-net-6-and-c.html
+
+
+추가 
+DB 생성 / 모델 생성 / 테이블 생성
+
+add-migration Init
+
+update-database
